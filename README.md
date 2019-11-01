@@ -1,5 +1,5 @@
 # rescale-doe-api
-Example of submitting Rescale Design of Experiments (DOE) job with REST API
+Example of submitting Rescale [Design of Experiments (DOE) job](https://docs.rescale.com/articles/run-a-doe-job/) with REST API
 
 ## Usage
 Clone this repository, and build the image
