@@ -1,0 +1,34 @@
+{
+  "name": "Job name will be substituted here",
+  "paramFile": {
+    "id": "paramFile ID name will be substituted here"
+  },
+  "jobanalyses": [
+    {
+      "inputFiles": [
+        {
+          "id": "inputFiles ID will be substituted here"
+        }
+      ],
+      "templateTasks": [
+        {
+          "templateFile": {
+            "id": "templateFile ID will be substituted here"
+          },
+          "processedFilename": "airfoil2D_DOE/0/U"
+        }
+      ],
+      "analysis": {
+        "code": "openfoam_plus",
+        "version": "v1706+-intelmpi"
+      },
+      "command": "cd airfoil2D_DOE\n./Allrun",
+      "hardware": {
+        "coreType": "emerald",
+        "coresPerSlot": 1,
+        "slots": 10
+      }
+    }
+  ],
+  "isLowPriority": true
+}
